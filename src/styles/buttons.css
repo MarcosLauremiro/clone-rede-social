@@ -1,0 +1,67 @@
+button{
+    color: var(--cor-branco);
+    font-weight: var(--peso-3);
+    font-size: var(--texto-2);
+    font-family: var(--font-1);
+
+    border-radius: var(--border-radius-1);
+    
+    cursor: pointer;
+
+    padding: .50rem 1.2rem;
+    margin: none;
+}
+button:hover{
+    transition: .3s;
+}
+
+.button__primario{
+    background-color: var(--cor-secundaria);
+}
+.button__primario:hover{
+    background-color: var(--cor-primaria);
+}
+
+.button__conza{
+    background-color: var(--cor-grey-2);
+
+}
+.button__conza:hover{
+    background-color: var(--cor-grey-3);
+}
+
+.button__braco{
+    background-color: var(--cor-branco);
+    
+    color: var(--cor-grey-3);
+}
+.button__braco:hover{
+    color: var(--cor-grey-2);
+}
+
+.button__segir{
+    border: 1.2px solid var(--cor-grey-1);
+    
+    background-color: var(--cor-branco);
+
+    color: var(--cor-grey-1);
+
+    padding: .3rem;
+
+    font-size: var(--texto-3);
+}
+.button__segir:hover{
+    border: 1.2px solid var(--cor-secundaria);
+
+    color: var(--cor-secundaria);
+}
+.button__segir:focus{
+    background-color: var(--cor-primaria);
+
+    color: var(--cor-branco);
+
+    border: 1.2px solid var(--cor-primaria);
+}
+/* .button__segir:focus::after{
+    content: " seguindo";
+} */

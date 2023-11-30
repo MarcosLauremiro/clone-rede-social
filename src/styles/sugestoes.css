@@ -1,0 +1,63 @@
+
+.sugestoes > h2{
+    margin: 1.5rem 0;
+
+    font-weight: var(--peso-2);
+
+    margin-top: 10vh;
+}
+.sugestoes__container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.perfil__cotainer{
+
+}
+.perfil__cotainer .perfil{
+
+}
+.sugestoes__container .perfil figure{
+
+}
+.sugestoes__container .perfil figure img{
+
+}
+.sugestoes__container .perfil div{
+    
+}
+.sugestoes__container .perfil div h2{
+
+}
+.sugestoes__container .perfil div p{
+
+}
+.perfil__cotainer .button-seguir__container{
+
+}
+.perfil__cotainer .button-seguir__container button{
+    
+}
+
+@media (min-width:700px){
+    .sugestoes__container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width:900px){
+    .sugestoes{
+        text-align: center;
+        margin:0 20px;
+    }
+
+    .sugestoes__container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        margin: 0 auto;
+
+        overflow-x: none;
+    }
+}

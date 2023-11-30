@@ -1,0 +1,22 @@
+
+@media (min-width: 900px){
+    .sessao-usuario__container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .sugestoes{
+        display: flex;
+        flex-direction: column;
+    }
+    .sugestoes__container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .posts{
+        width: 900px;
+    }
+    .main{
+        margin: 0 80px;
+    }
+}

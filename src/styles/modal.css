@@ -1,0 +1,34 @@
+.modal__controler{
+    box-sizing: border-box;
+
+    border: 1px solid var(--cor-grey-5);
+    border-radius: 4px;
+
+    
+}
+
+.modal__container{
+    max-width: 600px;
+    position: relative;
+}
+.perfil{
+    margin-bottom: 1rem;
+}
+
+.conteudo-post__usuario{
+
+}
+.conteudo-post__usuario h2{
+    font-size: var(--titulo-2);
+    font-weight: var(--peso-2);
+    margin-bottom: 1rem;
+}
+.conteudo-post__usuario p{
+    font-size: var(--texto-2);
+    font-weight: var(--peso-3);
+}
+.modal__controler .fechar{
+    position:absolute;
+
+    right: 20px;
+}

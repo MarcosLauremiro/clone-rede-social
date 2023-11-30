@@ -1,0 +1,64 @@
+.posts{
+
+}
+.posts h1{
+    font-size: var(--titulo-2);
+    font-weight: var(--peso-1);
+
+    margin: 2rem 0;
+    padding-bottom: .2rem;
+
+}
+.posts .posts__container{
+    display: flex;
+    flex-direction: column;
+}
+.posts .posts__container .post__usuario{
+    margin-bottom: 2rem;
+}
+.posts .posts__container .post__usuario .perfil{
+    
+}
+.posts .posts__container .post__usuario .conteudo-post__usuario{
+    margin: 1.5rem 0;
+}
+.posts .posts__container .post__usuario .conteudo-post__usuario h2{
+    font-size: var(--titulo-2);
+    font-weight: var(--peso-2);
+}
+.posts .posts__container .post__usuario .conteudo-post__usuario p{
+    font-size: var(--texto-2);
+    font-weight: var(--peso-3);
+
+    margin-top: 1.5rem;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.posts .posts__container .post__usuario .post__abrir{
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--cor-grey-5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+.posts .posts__container .post__usuario .post__abrir .abrir__post{
+    
+}
+.posts .posts__container .post__usuario .post__abrir .curtir__post{
+    display: flex;
+    
+    gap: .5rem;
+}
+.posts .posts__container .post__usuario .post__abrir .curtir__post img{
+    width: 20px;
+}
+
+@media (min-width:700px){
+   .posts{
+        width: 100%;
+   }
+}

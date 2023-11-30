@@ -1,0 +1,51 @@
+.main{
+    padding: 1rem;
+}
+
+.section__usuario{
+    margin-top: 10vh;
+}
+.usuario__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 1rem;
+
+    margin-top: 1.5rem;
+}
+.form__post input{
+    outline: none;
+
+    border: 1px solid var(--cor-grey-5);
+    border-radius: var(--border-radius-1);
+
+    width: 102%;
+    
+    padding: .5rem;
+
+    font-size: var(--texto-3);
+}
+.form__post textarea{
+    width: 100%;
+
+    outline: none;
+
+    border: 1px solid var(--cor-grey-5);
+    border-radius: var(--border-radius-1);  
+}
+.form__post div{
+    display: flex;
+    justify-content: end;
+
+    width: 100%;
+}
+.form__post div button{
+    background-color: var(--cor-grey-5);
+}
